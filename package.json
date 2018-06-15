@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "reveal.js": "^3.6.0"
+  },
+  "devDependencies": {
+    "@symfony/webpack-encore": "^0.20.1",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.3"
+  }
+}
