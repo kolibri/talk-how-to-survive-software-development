@@ -1,4 +1,5 @@
 require('../node_modules/reveal.js/css/reveal.scss');
+require('../node_modules/reveal.js/css/theme/moon.css');
 
 import Reveal from 'reveal.js'
 import head from 'reveal.js/lib/js/head.min.js'
