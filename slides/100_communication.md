@@ -91,6 +91,7 @@ Limited, because of missing body language
 - "Threads" vereinfachen die Übersicht
 - Benötigt erst ab einer sehr großen Teilnehmerzahl Moderation
 
+---
 
 ## Große Meetings
 

@@ -2,6 +2,19 @@
 
 ## Nicht technische Herausforderungen in IT Projekten
 
+Info:
+Vorab:
+- Dies ist ein rein nicht-technischer Talk
+- Es werden Klischees genannt und verwendet.
+    Dies dient nicht dazu, sich über diese Klischees lustig zu machen, 
+    sondern um die zu Grunde liegenden Eigenarten ansprechen zu können, einen Namen dafür zu haben
+- Viele werden vieles schon kennen. Dennoch, so kompakt gibt es dieses Wissen nicht noch einmal
+- Vieles in diesem Talk beruht auf persönlicher Erfahrung und Reflextion mit anderen über das Erfahrene.
+    Das impliziert auch, dass vieles Meinungen und keine Fakten sind. 
+- Euere (die der Zuschauer) Aufgabe ist es nun, das hier erfahrene zu Hinterdenken und selbst Lösungen zu entwickeln.
+
+---
+
 # Wer ist da da vorne?
 
 - Lukas Sadzik
@@ -13,12 +26,24 @@ Info:
 
 ---
 
-# tl:dr
+tl:dr
 
 ![stop look think, are you eating yourself](images/stop-look-think-oglaf.jpg)
 
 Info:
 Im Grunde läuft alles auf dieses Denkschema heraus:: Planen, Umsetzen, Reflektieren, Anpassen und von Vorn.
+
+---
+
+# Klischees über Softwareentwickler
+
+- Introvertiert
+- Nerdig
+- Eher unsozial
+- Kellerkind
+
+Info:
+Mal in die Runde Fragen, wer alles Softwareentwickler ist, wer Projemtmanager/PO, Scrummaster, Stakeholder
 
 ---
 
@@ -29,29 +54,37 @@ Im Grunde läuft alles auf dieses Denkschema heraus:: Planen, Umsetzen, Reflekti
 # Cache invalidation and naming things
 
 Info:
-Almost all problems can be sorted into one of these categories.
-Naming things: Creating things (give them a name), any kind of communication (as it specifies, defines what's in our heads)
-Cache invalidation: Every (putative) repeated situation, every reflection on happened things
+So gut wie alle Probleme lassen sich in eine dieser beiden Kategorien einordnen.
+Naming things: Alles neue, mit dem ich konfrontiert werde (es bekommt erst dann einen Namen, wird erst dadurch greifbar). Aber auch so gut wie jede Art von Kommunikaton.
+Cache invalidation: Jede (vermeintlich) bekannte Situation, die wiederholt eintritt. Aber auch: jede Reflektion über Passiertes.
 
 ---
 
-# Was ist Softwareentwicklung?
+# Woraus besteht Softwareentwicklung?
 
 - Den Kunden verstehen
 - Das Problem in Teilaufgaben zerteilen
 - Code schreiben
 
 Info: 
-The better you do at the first two tasks, the easier the last task will be.
-First two tasks are social, only last one is technical.
+Je besser man die ersten beiden Aufgaben löst, desto einfacher wird der letzte Teil.
+Die ersten Aufgaben sind soziale Aufgaben, nur die letzte ist technischer Natur.
 
 ---
 
-# Softwareentwicklung ist eine Soziale Aufgabe
+# Softwareentwicklung ist:
+
+- eine soziale Aufgabe
+- eine kontinuierliche Aufgabe
+- Arbeit mit Menschen
+
+---
+
+# Softwareentwicklung ist eine soziale Aufgabe
 
 Info:
-A lot of communication is involved
-So it contains a lot of space for misunderstanding
+Es beinhaltet eine Menge Kommunikation
+Und somit auch Raum für jede Menge Missverstädnisse
 
 ---
 

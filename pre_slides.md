@@ -510,6 +510,26 @@ Und die glücklichen Entwickler legen den besseren Code
 ## Habe Spaß an dem, was Du tust
 
 
+
+------
+
+# Methoden, wenn man sich festgebissen hat
+
+## Ruberducking
+## 5 bis 10 Minuten Abstand gewinnen
+## Das Problem isolieren
+## Tools wechseln
+
+
+------
+
+# Anti Patterns
+
+## Management nach Zahlen
+## Falscher System-Architekt
+## Programmer Interrupt
+## Programmer Experience Clumping
+
 ------
 
 # Konfliktsituationen

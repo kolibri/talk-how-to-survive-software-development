@@ -13,15 +13,32 @@ Stattdessen meine ich aber das "Glückliche Hühner legen die besseren Eier"-Ph�
 
 ## Der Arbeitsplatz
 
-### Hände und Handgelenke
+---
 
-Achte auf ergonomische Perepherie.
-Tastaturen so flasch wie möglich.
+### Hände & Handgelenke
 
+- Achte auf ergonomische Perepherie.
+- Tastaturen so flasch wie möglich.
+- Nutzt Trackballs oder ergonomische Mäuse
 
 Info:
 Nimm ein Apple Trackpad als schlechtes Beispiel mit ;)
-Trackballs, ergonomische Mäuse
+
+---
+
+### Nacken & Rücken
+
+- Sorgt für ein angemessenes Sitzwerkzeug
+- Achtet auch auf die Schreibtischhöhe
+- Macht Entspannungsübungen.
+
+@TODO:: Add yoga picture from alex)
+
+
+Info:
+Natürlich machen wir die Übungen zusammen ;)
+---
+
 
 ## Henne und Ei Problem:
 
