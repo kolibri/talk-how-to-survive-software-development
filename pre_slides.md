@@ -38,30 +38,6 @@ Lukas arbeitet seit fast sechs Jahren bei SensioLabs, hat viele verschiedene Tea
 
 ---
 
-## Fingerpointing
-
-- Kommt einer direkten Attacke auf die Person gleich
-- Verwandelt sich sofort in einen Konflikt
-
-### Stattdessen
-
-- Das eigentliche Problem ansprechen, nicht die vermeintlich schuldige Person
-- Hilfreiche Formulierung: "Wir sollten" anstatt "Du solltest"
-
----
-
-## Mit dem Zaunpfahl winken
-
-- Wird entweder nicht verstanden, oder missverstanden
-
-Info:
-Melvins & Phantomas BIG Band Geschichte hier einbauen
-
-### Stattdessen
-
-- Klar und deutlich ansprechen, was Sache ist
-
----
 
 ## Inselwissen aufbauen
 
@@ -95,48 +71,6 @@ Die Zeiträume im PHP Umfeld sehen auf den ersten Blick vielleicht etwas lange a
 03 Jahre: PHP7 3. Dezember 2015
 02 Jahre: PHP7.1 (:void, :?returnType) 1. Dezember 2016
 01 Jahre: PHP7.2 (:object) 30. November 2017
-
-## Lernen im Beruf !== Lernen in der Schule
-
-Info:
-Methoden und auch Ziele sind andere als in der Schule
-
-Spirallernen:
-Am ersten Tag ein Lernpaket lernen.
-Am zweiten Tag das gelernte wiederholen und weiteren Stoff dazunehmen
-Am dritten Tag das gelernte Wiederholen und weiteren Stoff dazunehmen
-usw.
-Gut für neue Programmiersprachen, wird im Grunde von selbst erledigt, da man bereits gelernte Konzepte einfach weiter verwendet.
-
-
-## Das gerlernte Anwenden
-
-Info:
-Kleine Nebenprojekte lassen einen das gelernte direkt Anwenden.
-Es spielt keine Rolle, ob das ein reelles Projekt ist, das auch irgendwann fertig wird oder auch genutzt wird.
-
-Die besten Ergebnisse jedoch erziehlt man, wenn man das gelernte mit anderen teilt und Feedback für die eigene Umsetzung bekommt.
-Man braucht keine Angs haben, andere zu fragen. Man bekommt eigentlich immer eine passende Antwort: Entweder der andere will helfen, oder er will sich profilieren. Beides führt zum selben Ergebnis, und beide Typen sind danach zufrieden.
-
-
-## Lernen durch Lehren
-
-Info:
-Jemand anderem etwas beizubringen lässt einen das gelehrte durch andere Augen sehen.
-Oft reicht es, nur einen minimalen Vorsprung zu haben, oder nur ein grobes Konzept zu wissen. Bei Fragen kann man gemeinsam nach der Antwort suchen.
-Durch die Fragen des anderen wird der Blickwinkel auf das gelernte verändert und somit neue Arten des Verstädnisses geschaffen.
-
-
-## Ausprobieren > Informieren
-
-Den größten Lernerfolg hat man durch ausprobieren. Eine neue Sprache lernt man nicht durch Bücherlesen auf dem Heimweg.
-
-## Um zu lernen muss man Fehler machen
-
-Info:
-Beispiel Schach: Um besser zu werden, muss man gegen stärkere Gegner spielen. Womit man zwangsläufig verliert.
-Aber auch das "Fehler machen" will gelernt sein.
-Wie gehen wir mit Softwarefehlern (Bugs) um? Wir schreiben Tests, damit er nicht mehr vorkommt, und beheben den Fehler. Beim Lernen ist es nicht wirklich anders: Man lernt von dem Fehler, prägt ihn sich sein und findet einen Weg, diesen Fehler nicht mehr zu machen.
 
 
 ------

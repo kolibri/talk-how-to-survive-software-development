@@ -1,4 +1,4 @@
-<!-- -- -- -- -- -- -- INTRO -- -- -- -- -- -- -->
+ <!-- -- -- -- -- -- -- INTRO -- -- -- -- -- -- -->
 
 # How to survive software development
 
@@ -22,7 +22,7 @@
 - @ko_libri
 
 ???
-Ich bin der Lukas, arbeite mit viel zu wenig anderen anderen Entwicklern bei Sesiolabs und mag Twitter.
+Ich bin der Lukas, arbeite mit viel zu wenig anderen anderen Entwicklern bei Sensiolabs und mag Twitter.
 ---
 
 # tl:dr
@@ -192,6 +192,26 @@ während die Diskutierenden ihre technische Lösung besprechen, kontrollieren di
 Nur die Verifizierer haben "Bildschirmkontakt".
 ---
 
+# Dinge, die man vermeiden sollte
+
+- Fingerpointing
+???
+Resultiert in den meisten Fännen direkt in einem Konflikt (Dazu später mehr)
+--
+
+- Mit dem Zaunpfahl winken
+???
+Anekdote:
+Großraumbüro, ein Dutzend Entwickler unterm Dachgeschoss, Agenturprojekt, hoher Druck.
+Einer der Entwickler hört über Lautsprecher Musik, meist sehr Metallastig.
+Meine "grandiose" Idee, der Wink mit dem Zaunpfahl war dann der Musiktipp "Melvins & Fantomas, Big Band". Und wir haben es gehört, das ganze Konzert......
+--
+
+- Sarkasmus und Ironie
+???
+Kann in gut dosierten Portionen wunderbar und auflockernd sein, im Übermaß schafft es jedoch eher Verdruss und im schlimmsten Fall Missverständnisse
+---
+
 <!-- -- -- -- -- -- -- KAPITEL AGILITÄT -- -- -- -- -- -- -->
 # Was ist dieses Scrum
 --
@@ -226,6 +246,7 @@ Eigentlich "Reagieren < dem Plan folgen".
 ---
 
 # Kern von Scrum
+--
 
 - Sprints (detaillierte Planung nur auf kurze Zeit)
 ???
@@ -243,7 +264,7 @@ Menschen statt Prozessen
 Kollaboration
 --
 
-- Rollen
+- Rollen (PO/Dev/SM/SH)
 ???
 Nimmt man alle Rollen weg, muss man im Grunde nur noch zwischen zwei Arten von Leuten im Projekt unterscheiden: Die, die was wollen, und die, die was können.
 PO und Entwickler
@@ -476,11 +497,6 @@ Das Testsystem gehört den Entwicklern. Das darf kaputt gehen. Staging dagegen w
 - Kommunikation! 
 ---
 
-# Das Schalentier
-
-- Kommt nur sehr sehr sehr langsam aus sich heraus
----
-
 # Noob
 
 - Wenig Erfahrung
@@ -543,4 +559,382 @@ Das Testsystem gehört den Entwicklern. Das darf kaputt gehen. Staging dagegen w
 - Kompromisse eingehen. Migrationsweg aushandeln
 ---
 
-<!-- -- -- -- -- -- -- INTRO -- -- -- -- -- -- -->
+# Weitere Typen von Entwicklern
+--
+
+
+
+# Weitere Anti-Pattern
+--
+
+- Management nach Zahlen
+???
+Entwickler sind nur Resourcen und austauschbar
+Wohl das häufigste Anti-Pattern und grundlage für das Klischee "Agentur"
+--
+
+- Falscher System-Architekt
+???
+Häufig wird eine vermeintlich gute Person in eine führende Rolle gehoben, für die sie nicht geschaffen ist.
+Nicht geschaffen kann vieles bedeuten:
+- Fachlich nicht erfahren genug
+- Der Aufgabe nicht gewachsen (überarbeitet)
+- Menschlich nicht in der Lage
+Die Wertegleichheit von Scrum kann dem entgegenwirken.
+--
+
+- Programmer Interrupt
+???
+Nach einer Unterbrechung dauert es im Schnitt 15 Minuten sich wieder reinzudenken
+Feste Zeiten für Absprachen können entgegenwirken
+Ebenso das sich abschotten durch Kopfhörer/Ohrenstöpsel, einen anderen Raum, etc.
+Hier auch wieder ein Vorteil von geschriebener, asynchroner Kommunikation
+Die Einarbeitungszeit kann man sich durch Notizen/Breackpoints/Lesezeichen etc verkürzen
+--
+
+- Programmer Experience Clumping
+???
+In einem Team mit gemischten Qualitäten verhält es sich ähnlich wie mit dem IQ:
+Die starken Entwickler werden ihr volles Potential nicht entfalten.
+Die weniger starken haben nicht das volle Potential zum Lernen verfügbar und lernen im schlimmsten Fall das falsche, weil es ja von den starken Entwicklern kommt.
+Wege da raus:
+Die starken Entwickler die weniger starken schulen lassen. Den starken Entwicklern eine Platform geben, in der sie sich profilieren können und die weniger starken davon profitieren: 
+Durch interne Tech-talks, Pair Programming, Pair-Reviews, etc.
+---
+
+<!-- -- -- -- -- -- -- KAPITEL LERNEN -- -- -- -- -- -- -->
+
+# Das Lernen lernen
+
+???
+Lernen, das heißt auch auch neue Technologien reagieren und sich in fremden Code einlesen, ist DIE Kernfähigkeit jedes Entwicklers.
+Ein Entwickler, der nichts mehr dazulernt wird innerhalb eines Jahres den Anschluss verpassen.
+---
+
+# Lernen im Beruf !== Lernen in der Schule
+--
+
+- Autodidaktisch
+???
+Ihr müsst euch den Scheiß selbst beibringen
+--
+
+- Direkt umgesetzt
+???
+Im Vergleich zum Schullernen, wo man das Wissen nach der Klassenarbeit wegwerfen kann.
+--
+???
+Empfohlen wird das Spirallernen:
+Ein Lernpaket lernen. Das dann wiederholen, und ein neues Lernpaket gelernt, wieder alles wiederholen, etwas neues dazu und so weiter und so fort.
+Praktischerweise ist genau das auch das Schema beim Lernen einer neuen Sprache.
+---
+
+# Ein Beispiel
+
+???
+Wie man sich die Reihenfolge der Farben von Widerständen merkt
+0 ist die schwarze Null (Null mit beiden Händen vor sich halten)
+1 Eine braune Tasse Kakao ()
+2 Rote Lippen zum küssen
+3 Federn am Orangen Hut
+4 Räder an einem gelben Postauto
+5 Finger in eklig grüner Suppe
+6 unter blauem Himmel
+7 Zwerge mit Lila Mützen
+8 80jähriger mit grauen Haaren
+9 neun weiße kegel
+---
+
+# Das gelernte Anwenden
+???
+Kleine Nebenprojekte eignen sich ideal dazu
+Es spielt keine Rolle, ob das Projekt auch mal real wird, gelernt ist gelernt.
+
+Das beste Ergebnis erziehlt man jedoch, indem man seinen Erfolg mit jemandem teilt und sich Feedback einholt.
+Man braucht übrigens keine Angst zu haben. Derjenige, den man fragt will sich entweder profilieren oder wirklich helfen. In beiden Fällen bekommt man die gewünschte Kritik und beide Seiten gewinnen.
+
+# Lernen durch Lehren
+???
+Jemanden etwas beizubringen lässt einen den Stoff durch andere Augen sehen.
+Ein Minimaler Vorsprung reicht oft aus. Ungelöste Fragen lassen sich gemeinsam erarbeiten.
+Durch die Fremde Sicht auf das Thema lernt man weitere Aspekte und Betrachtungsweisen kennen.
+---
+
+# Ausprobieren > Informieren
+???
+Den größte Erfolg hat man mit eigenen Erfahrungen.
+Dank virtualisierungen muss man auch keine Angst mehr haben etwas kaputt zu machen
+
+# Um zu lernen muss man Fehler machen
+???
+Beispiel Schach: Man kann nur besser werden, indem man gegen stärkere Gegner spielt.
+Fehler machen will aber auch gelernt sein, bzw. der Umgang mit Fehlern.
+Softwarefehler beheben wir, indem wir einen Test schreiben und den Fehler dann beheben.
+Test => Fehler erkennen und verstehen und die Sicherheit, dass der Fehler nicht mehr auftritt.
+---
+
+# Und wenn man doch mal hängen bleibt?
+--
+
+- Abstand gewinnen/Perspektive ändern
+???
+5 bis 10 Minuten Pause von dem Problem können Wunder bewirken.
+Eurer Kopf arbeitet weiter an dem Problem, selbst wenn Ihr es nicht bemerkt.
+--
+
+- Die Quietscheente fragen
+???
+Formuliert eurer Problem. Entweder vor einer Quietscheente, der Katze, einem Kollegen.
+Wichtig ist, dass Ihr das Problem so vollständig wie möglich erklären könnt
+--
+
+- Das Problem isolieren/Tools austauschen
+???
+Alles, was interagieren kann wegnehmen.
+Es kann auch hilfreich sein andere, vermeintlich funktionierende Teile durch Dummies zu ersetzen.
+Das muss nicht in dem Projektcode passieren!
+Anekdote:
+ein Problem mit HTTP Basic auth. Der Entwickler arbeitet mit Postman, und die Authentifizierung klappt einfach nicht. Im einem der Tests jedoch läuft alles.
+Nach und nach wurden Teile entfernt, bis letzten endes die Requests mit Curl weggeschickt wurden. Und siehe da, es funktionierte, weil Postman einen Bug in der base64 encodierung hat, wenn im String Umlaute sind.
+---
+
+<!-- -- -- -- -- -- -- KAPITEL ACHTE AUF DICH SELBST -- -- -- -- -- -- -->
+
+# Das Henne und Ei Problem
+???
+Publikum fragen, was das ist.
+Es wird das "Was war zuerst da"-Problem erklärt.
+Stattdessen meine ich aber das "Glückliche Hühner legen die besseren Eier"-Phänomen. ;)
+---
+
+# Der ergonomische Arbeitsplatz
+???
+Sehnenscheidentzündungen sind eine Berufskrankheit für Softwarentwickler.
+--
+
+- Mäuse sind für die Katz
+- Tastaturen sollen flach sein
+???
+Mäuse sind fast ein garant für eine Sehnenscheidentzündung.
+Trackballs oder ergonomische Mäuse kosten nicht die Welt.
+Wenn Ihr euch die Hardware aussuchen könnt, achtet auf ergonomische Geräte
+--
+
+- Schreibtisch und Sitzgelegenheit
+???
+Ihr sitzt am Tag bis zu 8 Stunden in dem Ding (Plus die Zeit zuhause)
+Gönnt euch da ruhig mal was
+---
+
+# Übungen zur Auflockerung
+
+![Kleines Büro-Yoga](images/yoga-at-work-emotion-de.png)
+
+???
+Und jetzt mal was zum mitmachen :)
+(Wer jetzt nicht mitmacht, dem wird es später umso schwerer fallen überhaupt damit anzufangen)
+---
+
+
+
+# Die geistige Gesundheit
+???
+Jetzt wird es mal etwas ernster
+Ich werde ein paar psychische Erkrankungen vorstellen, von denen ich denke, das Entwickler da besonders anfällig für sind.
+Dennoch soll das auch unter dem Motto "Naming things" laufen, um ein Vokabular zu schaffen, mit dem man über solche Dinge reden kann.
+--
+
+## Mentale Erkrankungen 
+--
+
+- Hochstapler-Syndrom
+???
+"Oh ich bin gar nicht gut genug für den Job"-Denken
+Theraphie: Die Diagnose an sich ist schon ein enormer Schritt
+Verstehen dass ein einzelner Fehler nicht die gesammten eigenen Fähigkeiten in Frage stellt
+"Ich kann ja nichtmal Subnetzmasken berechnen"-Denken abschalten.
+Softwareentwicklung ist so komplex, man kann nicht in allen Bereichen gut sein.
+--
+
+- Narzistische Persönlichkeitsstörung
+???
+Das Gegenteil zum Hochstapler Syndrom
+Diagnose: einfach mal fragen "Bist Du ein Narzist?"
+Umgang: Schwierig, man muss aufpassen. Niemals die Person direkt angreifen, immer auf der Sachlichen Ebene bleiben
+--
+
+- Depressionen
+???
+Wie fühlt sich eine Depression an: Man ist nicht mehr Herr seiner Lage. Man wird zum Beobachter seinr selbst, ohne die Möglichkeit zu interagieren. Es entsteht ein Teufelskreislauf dadurch, dass man sein Unvermögen mitbekommt, sich darüber ärgert und sich so weiter reinsteigert.
+Oft reichen dann kleine Trigger aus, um die Person völlig kollabieren zu lassen.
+Umgang: Sensibel sein. Interesse an der Person zeigen (aber nicht faken, das fliegt auf), und die Arbeit loben. Auch hier, sachlich bleiben.
+Zudem: Wenn man die Triggerthemen kennt, diese auslassen.
+--
+
+- Burnout
+???
+Symptome: andauernde Erschöpfung, Zynismus und emotionaler Abstand zur Aufgabe, Gefühl von Wirkungslosigkeit "Das bringt ja eh nichts mehr", Depressionen, Manie.
+Behandlung: Einmal ordentlich Urlaub machen löst das Problem nicht. Der Betroffene nimmt die Probleme einfach mit in den Urlaub.
+Die Ursache (die Überarbeitung) muss korrigiert werden.
+--
+
+???
+Desweiteren ansprechen:
+Aspberger: Das unvermögen menschliche Emotionen anderer zu interpretieren
+Borderline: Selbstzerstörendes Verhalten (klassiker: Selbstverletzung, aber auch andere Steine, die man sich selbst in den Weg legt.)
+
+---
+
+# Hilfestellen
+
+- Ärzte
+- TelefonSeelsorge in Deutschland +49 (0)800 111 0 111 (gebührenfrei)
+- http://www.depressionen-depression.net/notfaelle/notfallnummern.htm
+---
+
+# Prävention
+--
+
+- Habt Spaß an dem, was Ihr tut.
+???
+sicher, das geht nicht immer, Durststrecken sind völlig normal. Aber verliert nicht aus dem Auge, dass es nur eine Phase ist, und schafft euch ein Umfeld, mit dem man diese Durststrecke auch durchstehen kann, und welches danach auch wieder Spaß macht.
+--
+
+- Sorgt für Abwechslung
+???
+Hobbies sind wichtig. Sehr gut sind Hobbies, die nicht das selbe wie der Beruf sind.
+Das kann das herumspielen mit einer anderen Programmiersprache sein.
+Ebenfalls sehr gut sind Hobbies, bei denen die Hände beschäftigt sind.
+Und nun werde ich einen Satz sagen, den man gar nicht sagen darf, weil er eine Geschichte hat, mit der niemand in Verbindung gebracht werden möchte. Eine Weisheit, die von den Nazis missbraucht wurde, aber nicht in Vergessenheit geraten sollte: Arbeit macht Frei.
+Polymorphie ist auch hier der Schlüssel, wer mehrere Hobbies zur Auswahl hat, kann immer nach Bedarf wählen.
+--
+
+- Keine Macht den Drogen
+???
+Ich weiß, dass es sehr produktiv wirken kann mit ein zwei Flaschen Bier/Wein oder einem Joint zu programmieren. Es hilft den Fokus zu behalten.
+Dennoch, lasst es sein. Zum einem wird der Code dadurch nicht besser (pragmatischer vielleicht), som anderen sind die Nebenwirkungen oftmals unterschätzt.
+Eine Alkoholsucht kann zum tod führen, und Kiffen schränkt die Gehirnleistung (unser Hauptwerkzeug) ein. Auf andere Mittelchen brauche ich hoffentlich erst gar nicht eingehen.
+--
+
+- Pflegt soziale Kontakte
+???
+Sowohl im Arbeitsteam als auch außerhalb des Arbeitsteam.
+Vollkommen isoliert fehlt euch das wichtige Feedback von außen
+Es gibt nichts schlimmeres was Code passieren kann, als dass ihn nur ein Entwickler schreibt.
+--
+
+- Bleibt gesund
+???
+In einem gesundem Körper lebt auch ein gesunder Geist. eine Bauernweisheit, aber es durchaus etwas dran. Wer ständig damit beschäftigt ist, sein Wunschgewicht zu halten, kann diese Energie nicht für andere Dinge nutzen.
+---
+
+# Karriere machen
+--
+
+- Alle zwei is drei Jahre die Firma wechseln
+???
+Schnellster Weg für eine Gehaltserhöhung.
+Einfachster Weg neue Projekte kennen zu lernen
+--
+
+- Sich einen Namen machen
+???
+Besucht Konferenzen, haltet Talks, macht mit bei Open Source Projekten, bringt Leuten etwas bei, etc, etc, etc.
+---
+
+<!-- -- -- -- -- -- -- KONFLIKTE -- -- -- -- -- -- -->
+
+# ... und es hat Boom gemacht.
+---
+
+# Verhalten in Konfliktsituationen
+--
+
+Grundsätzlich: Das Ziel ist nicht, den anderen zu überzeugen.
+Das Ziel ist es, den anderen Standpunkt zu verstehen und seinen Eigenen verständlich zu machen.
+--
+
+- Sachlich bleiben
+???
+Dürfte Selbstverständlich sein. Aber schwierig.
+--
+
+- Nicht einmischen
+???
+Das feuert den Konflikt nur noch weiter an
+--
+
+- Nicht vor Publikum austragen
+???
+"Ja wie finde ich das denn"
+Vertagen und im Anschluss weiter diskutieren
+Anekdote
+Entwickler spricht (organisatorisches) Problem zum x-ten Mal in der Retro an.
+PO bemerkt "das sagst Du jedes mal"
+Dev: "Ja, weil sich nichts ändert"
+PO verliert die Beherschung "Du wirst dafür bezahlt, dass Du hier programmierst"
+Dev (macht alles richtig) bleibt ruhig, sagt gar nichts mehr.
+---
+
+# Sachlicher Konflikt
+--
+
+"Symfony vs Laravel"
+--
+
+- Sachlichkeit > eigene Vorlieben
+--
+
+- Im Hinterkopf behalten, dass Ihr für eine Sache, nicht gegen eine Person argumentiert
+--
+
+- Etwas nicht zu kennen ist kein Argument dagegen!
+---
+
+# Sozialer Konflikt
+--
+
+"Du Depp parkst immer auf meinem Parkplatz"
+--
+
+- Dieser Konflikt ist Privat!
+--
+
+- Professionell bleiben
+--
+
+- Auf privater Ebene klären, nicht im Team
+--
+
+???
+Anekdote:
+Der neue, fähige, Mitarbeiter stößt ins Team. Er kann was, weiß das, und muss sich auch dementsprechend positionieren.
+Die anderen Kollegen sehen nur einen arroganten Menschen, der sich da ins Team drängt und auf Wichtig macht.
+Wo ist das Problem? => Im Team (bzw. bei Dir)! 
+---
+
+# Und wenn gar nichts mehr hilft?
+--
+
+- Kündigt.
+???
+Macht euch klar: Entwickler sind aktuell Mangelware. Ihr werdet einen neuen Job finden!
+Wer aber zu oft wechselt, wird irgendwann Fragen beantworten müssen.
+---
+
+# Weiterführendes
+
+- [Anti Pattern auf Wikipedia](https://de.wikipedia.org/wiki/Anti-Pattern)
+- [Antipatterns und Missverständnisse in der Softwareentwicklung](https://www.youtube.com/watch?v=E0_Y53ci9cw) von Fefe
+- [Erfolgreich Dein Leben meistern](https://www.youtube.com/watch?v=j3cRo2wOBms) von Vera F. Birkenbihl
+- Stackexchange hat Bereiche für alle(!) möglichen(!) Arten von Fragen!
+---
+
+# Abschließendes
+
+- Reflektiert regelmäßig
+- Passt auf euch auf
+- Habt euch lieb
+---
+
+# Ende
