@@ -1,5 +1,15 @@
- <!-- -- -- -- -- -- -- INTRO -- -- -- -- -- -- -->
+name: title
+layout: true
+class: center, middle
+---
 
+name: list
+layout: true
+class: top, left
+---
+template: title
+
+<!-- -- -- -- -- -- -- INTRO -- -- -- -- -- -- -->
 # How to survive software development
 
 ## Nicht technische Herausforderungen in IT Projekten
@@ -14,6 +24,7 @@
     Das impliziert auch, dass vieles Meinungen und keine Fakten sind. 
 - Euere (die der Zuschauer) Aufgabe ist es nun, das hier erfahrene zu Hinterdenken und selbst Lösungen zu entwickeln.
 ---
+template: list
 
 # Wer ist das da vorne?
 
@@ -24,15 +35,18 @@
 ???
 Ich bin der Lukas, arbeite mit viel zu wenig anderen anderen Entwicklern bei Sensiolabs und mag Twitter.
 ---
+class: top, center
 
 # tl:dr
 --
 
 ![stop look think, are you eating yourself](images/stop-look-think-oglaf.jpg)
 
+
 ???
 Im Grunde läuft alles auf dieses Denkschema heraus:: Planen, Umsetzen, Reflektieren, Anpassen und von Vorn.
 ---
+template: list
 
 # Klischees über Softwareentwickler
 --
@@ -52,9 +66,11 @@ Im Grunde läuft alles auf dieses Denkschema heraus:: Planen, Umsetzen, Reflekti
 Lustig anfangen.
 Mal in die Runde Fragen, wer alles Softwareentwickler ist, wer Projemtmanager/PO, Scrummaster, Stakeholder
 ---
+template: title
 
 # Getting started
 ---
+template: title
 
 # Cache invalidation and naming things
 
@@ -63,6 +79,7 @@ So gut wie alle Probleme lassen sich in eine dieser beiden Kategorien einordnen.
 Naming things: Alles neue, mit dem ich konfrontiert werde (es bekommt erst dann einen Namen, wird erst dadurch greifbar). Aber auch so gut wie jede Art von Kommunikaton.
 Cache invalidation: Jede (vermeintlich) bekannte Situation, die wiederholt eintritt. Aber auch: jede Reflektion über Passiertes.
 ---
+template: list
 
 # Woraus besteht Softwareentwicklung?
 --
@@ -79,6 +96,7 @@ Cache invalidation: Jede (vermeintlich) bekannte Situation, die wiederholt eintr
 Je besser man die ersten beiden Aufgaben löst, desto einfacher wird der letzte Teil.
 Die ersten Aufgaben sind soziale Aufgaben, nur die letzte ist technischer Natur.
 ---
+template: list
 
 # Softwareentwicklung ist:
 --
@@ -104,15 +122,18 @@ Und selbst wenn, die Tools entwickeln sich weiter.
 ???
 Womit neben neuen Technologien auch das Lesen von fremden Code gemeint ist. Das ist ebenfalls Lernen
 ---
+template: title
 
 <!-- -- -- -- -- -- -- KAPITEL KOMMUNIKATION -- -- -- -- -- -- -->
 # Kommunikation
 ---
+template: title
 
 # Man kann nicht nicht kommunizieren
 
 Paul Watzlawick
 ---
+template: list
 
 # Das Kommunikationsquadrat
 
@@ -126,6 +147,7 @@ Jede Botschaft setzt sich aus diesen Vier Seiten zusammen:
 F. Schulz von Thun
 
 ---
+template: title
 
 # Sprachliche Unschärfe
 
@@ -136,44 +158,98 @@ In der Klasse `ShopApp/Basket/Model/Product` gibt es einen Bug, der dazu führt,
 Aber einfacher zu schreiben und zu lesen.
 Gesprochene Inhalte muss ich notieren oder merken. Bereits Aufgeschriebenes kann ich jederzeit wieder lesen.
 ---
+template: title
 
 # Arten von Kommunikation
 ---
+template: list
 
-# Direkt
+# Synchrone Kommunikation
 
-Angesicht zu Angesicht im selben Raum
+- Direkt
 
+--
+
+- In kleinen Gruppen (bis zu ca. 5) recht schnell
+--
+
+- Undokumentiert
+--
+
+- Kann schnell abdriften, je mehr Leute involviert sind.
+--
+
+- Nur ein Redner zur selben Zeit möglich
+---
+template: list
+
+# Synchrone Kommunikation
+
+- Direkt, Angesicht zu Angesicht
 ???
-- Synchron
 - Sehr schnell mit zwei Menschen
 - Langsamer, je mehr Menschen dazukommen
 - Undokumentiert
 - Wird je schneller vom Thema abkommen, je mehr Menschen involviert sind
 - Mit der Größe der Gruppe wächst auch der Bedarf an einem Moderator
----
+--
 
-# Telefon/Sprachchat
-
+- Telefon/Sprachchat
 ???
-- Synchron
 - Faster than writing, but slower than direct communication
 - Only one can talk, otherwise no one will understand anything
 - Complex connections are hard to transport
----
+--
 
-# Videochat
-
+- Videochat
 ???
-- Synchron
 - Almost the same as direct communication
 - Body language is possible
 ---
 
-# Chat
+template: list
 
+# Asynchrone Kommunikation
+
+- Indirekt, meist via geschriebenem Text
 ???
-- Asynchron
+Aber auch Anrufbeantworter/Sprachnachrichten gehören in diese Kategorie
+--
+
+- Dokumentiert
+--
+
+- Sehr flexibel was die Gruppengröße angeht
+--
+
+- Threads können die Übersicht bewahren
+???
+Womit dann auch das Problem des Abdriftens gelöst wäre: Es ist okay, abzudriften, so lange man den eigentlichen Punkt nicht aus den Augen verliert.
+--
+
+- Mehrere "Redner" zur selben Zeit möglich
+???
+Was Zeit spart
+---
+template: List
+
+# Asynchrone Kommunikation
+
+- Email
+???
+Aufwendig (Emailadresser raussuchen, eintippen, Betreff formulieren, Email schreiben, abschicken, auf Antwort warten)
+Viele Mailpostfächer sind überfüllt, nur die wenigsten nutzen Tools um sich den Eingang sortieren zu lassen
+Gehen oft unter
+Sehr förmlich
+--
+
+- Ticketsystem
+???
+Wird sehr schnell unübersichtlicht (Wo war die Nachricht noch mal?) Vor allem wenn man mit Subtickets arbeitet, und nachdem sich Anforderungen geändert haben (und damit auch die Tickets)
+--
+
+- Chat
+???
 - Dokumentiert
 - Schriftsprache ist häufig präziser als gesprochene Sprache
 - In kleinen Gruppen (2-3 Leute) langsamer als direkte Kommunikation
@@ -181,16 +257,7 @@ Angesicht zu Angesicht im selben Raum
 - "Threads" vereinfachen die Übersicht
 - Benötigt erst ab einer sehr großen Teilnehmerzahl Moderation
 ---
-
-# Große Meetings
-
-???
-Ein Ansatz für große Meetings mit technischem Inhalt:
-
-Gruppe aufteilen in "Diskutierer" und "Verifizierer".
-während die Diskutierenden ihre technische Lösung besprechen, kontrollieren die Verifizierer die Ansätze auf ihre Machbarkeit/Korrektheit.
-Nur die Verifizierer haben "Bildschirmkontakt".
----
+template: list
 
 # Dinge, die man vermeiden sollte
 
@@ -211,6 +278,7 @@ Meine "grandiose" Idee, der Wink mit dem Zaunpfahl war dann der Musiktipp "Melvi
 ???
 Kann in gut dosierten Portionen wunderbar und auflockernd sein, im Übermaß schafft es jedoch eher Verdruss und im schlimmsten Fall Missverständnisse
 ---
+template: title
 
 <!-- -- -- -- -- -- -- KAPITEL AGILITÄT -- -- -- -- -- -- -->
 # Was ist dieses Scrum
@@ -218,9 +286,12 @@ Kann in gut dosierten Portionen wunderbar und auflockernd sein, im Übermaß sch
 
 ## und warum machen das Alle falsch
 ---
+template: list
 
 # Warum so Agil
 --
+
+## Agile Grundsätze / Agiles Manifest
 
 - Mensch > Prozess
 ???
@@ -244,55 +315,36 @@ Eigentlich "Reagieren < dem Plan folgen".
 "Realität" lässt aber offen, ob man diese überhaupt mitbekommt ;)
 (Zieht den Bogen zum nächsten Slide: Scrum)
 ---
+template: list
 
 # Kern von Scrum
 --
 
 - Sprints (detaillierte Planung nur auf kurze Zeit)
-???
-Zahlt auf schnelles Reagieren ein
+--
+
+    - Realität > Plan
 --
 
 - Daily (Tägliche updates über Blocker)
-???
-Kollaboration und Reaktionszeit verkürzen
+--
+
+    - Realität > Plan
+    - Kollaboration > Vertragliches
 --
 
 - Retros (Wie können wir uns verbessern)
-???
-Menschen statt Prozessen
-Kollaboration
 --
 
-- Rollen (PO/Dev/SM/SH)
-???
-Nimmt man alle Rollen weg, muss man im Grunde nur noch zwischen zwei Arten von Leuten im Projekt unterscheiden: Die, die was wollen, und die, die was können.
-PO und Entwickler
-Dazu noch jemanden, der denen das alle beibringt: Scrummaster
-Und zum Schluss noch die Rolle, die das alles bezahlt, die Steakholer
+    - Kollaboration > Vertragliches
+    - Mensch > Prozess
+
 --
 
 ???
 Wer aufgepasst hat, hat bemerkt, dass der Agile Wert "Funktion > Dokumentation" von keinem Scrum-Aspekt berührt wird. Das stimmt. Scrum hat keine Auswirkungen darauf, ob ihr guten Code erhaltet, oder nicht.
 ---
-
-# Werte von Scrum
---
-
-- Selbstbestimmtheit des Teams
-???
-Zwei Richtungen: Fachliche und Technische
-Fachlich: Was, Wann
-Technisch: Wie, Wer, Wann
---
-
-- Selbstorganisation des Teams
-???
---
-
-- Gleichberechtigung im Team
-???
----
+template: list
 
 # Was kann man mit Scrum erreichen
 --
@@ -305,6 +357,7 @@ Technisch: Wie, Wer, Wann
 
 - Projektstatus transparent machen
 ---
+template: list
 
 # Was kann Scrum nicht
 --
@@ -316,7 +369,7 @@ Wurde ja schon erwähnt
 
 - Ergebnisse zu Zeitpunkt X garantieren
 ???
-Feste Deadlines und Agiles arbeiten schließt sich ja im Grunde fast per definition aus.
+Mehr dazu gleich
 --
 
 - Mitarbeiter motivieren
@@ -324,284 +377,103 @@ Feste Deadlines und Agiles arbeiten schließt sich ja im Grunde fast per definit
 
 - Wissen teilen
 ---
+template: list
 
-<!-- -- -- -- -- -- -- DAS SCRUMTEAM -- -- -- -- -- -- -->
-# Das Scrumteam
+# Agile (&) Deadlines
+
+- Termine sind Realität
 ???
-So, das war jetzt schonmal ein wenig trockener Stoff.
-Kommen wir zu was lustigem.
----
-
-# Arten von Product Ownern
----
-
-# Der Strohmann
-
-- Keine Entscheidungsgewalten
-- Vertritt das Team nicht
-
-## Wie mit umgehen?
-- Versuchen zu unterstützen
-- Wenn sich der PO nicht für das Team einsetzt, muss sich das Team für den PO einsetzen
----
-
-# Die Diktatorin
-
-- Muss über jedes Detail bestimmen
-- Gibt technische Lösungen vor
-
-## Wie mit umgehen?
-
-- Rollenverteilung ansprechen
-- Kompetenzen klären
----
-
-# Der Fachidiot
-
-- Glaubt, technisches Verständis zu haben (hat es aber nicht)
-- Unterschätzt Aufwände
-
-## Wie mit umgehen?
-
-- Rollenverteilung ansprechen
-- Kompetenzen klären
----
-
-# Die ehemalige Entwicklerin
-
-- Hat hohes technisches Verständis
-- Gibt technische Lösungen vor
-
-## Wie mit umgehen
-
-- Rollenverteilung ansprechen
-- Ohne selbst daran zu programmieren kann man über komplexe Systeme keinen überblick haben. (Is' so!)
----
-
-# Mrs. Monitor
-
-- Muss ständig über den aktuellen Stand bescheid wissen
-- Prüft jede Stunde den Status der Tickets
-- Schaut über Schultern
-
-## Wie mit umgehen?
-
-- Notwendigkeit für ungestörtes Arbeiten klarstellen
-- Ticketsystem aktuell halten
-- Abnahmesystem bereitstellen (KEIN Testsystem)
-???
-Das Testsystem gehört den Entwicklern. Das darf kaputt gehen. Staging dagegen wird die Live behandelt.
----
-
-# Das Kompetenzteam
-
-- Gruppe von "PO's"
-- Übernimmt entscheidene Aufgaben der Entwickler (Wie Schätzungen, Planung, Retros, etc.)
-- Unklarheit, wer genau Ansprechpartner ist
-
-### Wie mit umgehen?
-
-- PO-team auflösen (Vielleicht auch auf mehrere Dev-Teams)
----
-
-# Arten von Scrummastern
----
-
-# The Human Scrum
-
-- Hat seinen Weg und zieht den durch
-- Achtet nicht auf Teambedürfnisse
-
-## Wie mit umgehen?
-
-- Bedürfnisse des Teams ansprechen
-- Unsinnigkeiten von Methoden aufzeigen
-- Selbst Methoden vorschlagen
----
-
-# Die Therapeutin
-
-- Interessiert sich nur für die Stimmung im Team
-- Macht viele "Spiele"
-
-## Wie mit umgehen?
-
-- Zweck der Spiele hinterfragen
-- "Was glaubst Du, sind unsere Probleme im Team?"
----
-
-# Der Interne
-
-- Nicht unabhängig
-- Karriere hängt von Erfolg des Teams ab
-
-## Wie mit umgehen?
-
-- Schwierig
----
-
-# PO's Schoßkatze/Dev-Buddy
-
-- Schlägt sich auf eine Seite des Teams
-- Stört den Teamzusammenhalt
-
-## Wie mit umgehen?
-
-- Team muss zusammenarbeiten
----
-
-# Arten von Entwicklern
----
-
-# Prof. Dr. Dr. Schneemann
-
-- Akademischer Hintergrund, hohes Wissen
-- Zu abgehoben für den Rest des Teams
-
-## Wie mit umgehen?
-
-- Verständnis schaffen, dass die anderen keine Akademiker sind
-- Dinge schaffen lassen und diese dann auch präsentieren lassen
----
-
-# Arroganter Stinkstiefel, schlechter
-
-- Überschätzt sich maßlos
-- Macht Andere/Arbeit von Anderen schlecht
-
-## Wie mit umgehen?
-
-- Mühlselig, aber immer wieder widerlegen
-- Sachlich bleiben, nur den Code, nie die Person kritisieren.
----
-
-# Arrogante Stinkstiefelin, gute
-
-- Liefert sehr gute Arbeit
-- Macht andere/Arbeit von anderen schlecht
-
-## Wie mit umgehen?
-
-- Auf "privater" Ebene Kontakt knüpfen
-- Sich selbst immer wieder klarmachen, dass die Arbeit, nicht die eigene Person kritisiert wird.
----
-
-# My home is my castle
-
-- Arbeit im Home office
-- Niemand kennt ihn
-
-## Wie mit umgehen?
-
-- Mal ins Büro einladen, Teamevents veranstalten
-- Kommunikation! 
----
-
-# Noob
-
-- Wenig Erfahrung
-- Mischt sich in alles ein, um Erfahrung zu sammeln
-
-### Wie mit umgehen?
-
-- Mitspielen lassen
-- Mögliche Rolle: Wenn der Noob es versteht, ist die Aufgabe gut formuliert
----
-
-# Kacknoob
-
-- Wenig Erfahrung
-- Hält sich aus allem raus
-
-### Wie mit umgehen?
-
-- Motivieren und in einen Noob verwandeln
----
-
-# The Alien
-
-- Der Kollege, der die Landessprache nicht versteht
-
-### Wie mit umgehen?
-
-- So, you have to support them. It's a benefit. But stay pragmaticaly!
----
-
-# Copycat
-
-- Kopiert sich seinen Code aus andere Projekten, Stackoverflow, etc.
-
-## Wie mit umgehen?
-
-- Muss geschult werden
----
-
-# Der Evangelist
-
-- Wirbt ständig für eine bestimmte Software, die alle Probleme löst
-
-## Wie mit umgehen?
-
-- Softwarestack klarstellen
----
-
-# Der Berater
-
-- Externer Mitarbeiter
-- Spezialist für einen Teilaspekt im Projekt
-- Hat in der Regel umfangreiche Projekterfahrung
-- Möchte das Projekt auf einen deutlich höheren technischen Stand bringen
-
-## Wie mit umgehen
-
-- Von der Erfahrung profitieren
-- Zügeln, sofern Forderungen den Rahmen sprengen
-- Kompromisse eingehen. Migrationsweg aushandeln
----
-
-# Weitere Typen von Entwicklern
+Siehe "Realität > Plan"
 --
 
-
-
-# Weitere Anti-Pattern
+- Agile Entwicklung hilft NICHT den Termin zu halten
+???
+Zumindest nicht direkt
 --
 
-- Management nach Zahlen
+- Agile hilft es frühzeitig zu ERKENNEN, dass man den Termin nicht halten kann
 ???
-Entwickler sind nur Resourcen und austauschbar
-Wohl das häufigste Anti-Pattern und grundlage für das Klischee "Agentur"
---
-
-- Falscher System-Architekt
-???
-Häufig wird eine vermeintlich gute Person in eine führende Rolle gehoben, für die sie nicht geschaffen ist.
-Nicht geschaffen kann vieles bedeuten:
-- Fachlich nicht erfahren genug
-- Der Aufgabe nicht gewachsen (überarbeitet)
-- Menschlich nicht in der Lage
-Die Wertegleichheit von Scrum kann dem entgegenwirken.
---
-
-- Programmer Interrupt
-???
-Nach einer Unterbrechung dauert es im Schnitt 15 Minuten sich wieder reinzudenken
-Feste Zeiten für Absprachen können entgegenwirken
-Ebenso das sich abschotten durch Kopfhörer/Ohrenstöpsel, einen anderen Raum, etc.
-Hier auch wieder ein Vorteil von geschriebener, asynchroner Kommunikation
-Die Einarbeitungszeit kann man sich durch Notizen/Breackpoints/Lesezeichen etc verkürzen
---
-
-- Programmer Experience Clumping
-???
-In einem Team mit gemischten Qualitäten verhält es sich ähnlich wie mit dem IQ:
-Die starken Entwickler werden ihr volles Potential nicht entfalten.
-Die weniger starken haben nicht das volle Potential zum Lernen verfügbar und lernen im schlimmsten Fall das falsche, weil es ja von den starken Entwicklern kommt.
-Wege da raus:
-Die starken Entwickler die weniger starken schulen lassen. Den starken Entwicklern eine Platform geben, in der sie sich profilieren können und die weniger starken davon profitieren: 
-Durch interne Tech-talks, Pair Programming, Pair-Reviews, etc.
+Wimit wir wieder bei "Realität > Plan" wären.
+In diesem Fall muss der Plan geändert werden.
 ---
+template: list
 
+# Die Scrumrollen
+???
+Vorab: Wie kamen die Rollen zustande?
+Als Grundlage dient das Agile Prinzip "Menschen > Prozesse".
+Nachdem man also alle Titel und Hierachien abgebaut hat, gibt es im Grunde nur noch zwei Arten von Leuten:
+Diejenigen, welche etwas liefern, und jene, die etwas geliefert haben wollen.
+--
+
+- Entwickler (Produzieren, Technische Planung)
+???
+Erstes, klar, sind wir Entwickler.
+--
+
+- Product Owner (Fachliche Planung, Backlogpflege)
+???
+Letztere sind eigentlich die Stake Holder, werden im Scrumteam aber durch einen Token ersetzt, den Product Owner.
+--
+
+- Scrum Master (Vermitteln, Kontrollieren)
+???
+Jetzt brauchen wir aber noch jemanden, der die vom Team definierten Prozesse überwacht.
+Jemanden, der zwischen Devs & PO vermitteln kann.
+Der dem Team Scrum beibringt
+Und auch als Moderator für Meetings fungiert.
+Die Rolle hat was von einem Mediator
+--
+
+- Stake Holder (Bezahlen ;))
+???
+Irgendwer muss den Spaß ja bezahlen.
+Spaß Beiseite, eigentlich sind die Stakeholder jene, die "etwas wollen", der Kunde.
+Dennoch sind sie nicht direkt Teil des (ausführenden) Scrumteams.
+Ihnen wird das Ergebnis der Sprints präsentiert, und von Ihnen bekommt der PO die Anforderungen des Produkts.
+Hier haben wir ach die einzige Rolle, die doppelt besetzt sein darf: PO & Stakeholder dürfen von der selben Person besetzt sein.
+---
+template: list
+
+# Was, wenn eine Rolle fehlt?
+
+- Entwickler
+???
+Ziemlich klar: Nichts geschieht (also wirklich gar nichts mehr)
+--
+
+- Product Owner
+???
+Ohne PO gibt es kein Backlog, und somit nichts zu tun.
+In der Realität würde das zu "Headless development", zu Chaos führen.
+--
+
+- Scrum Master
+???
+Dies ist die häufigste "fehlende" Rolle. Dennoch ist sie wichtig.
+Das sich das Team selbst reguliert kann man nur von sehr erfahrenen Leuten erwarten. Auf diesem Level macht man aber auch kein Scrum mehr, sondern arbeitet einfach.
+Der PO kann diese Rolle nicht übernehmen, da er sinst einen Interessenkonflikt hat. Sein Interesse als PO ist, möglichst schnell neue Features durchzubringen, während der SM auch Vermittler zwischen Devs & PO sein muss.
+Auch ein Entwickler kann kein SM sein, aus den selben Gründen.
+--
+
+- Stake Holder
+???
+Ohne Kunde kein Projekt.
+---
+template: title
+
+# Eine andere Sicht auf Scrum
+--
+
+## Scrum ist Gruppentherapie
+
+???
+Wer den Scrum Mastern mal genau auf die Finger schaut, wird feststellen, dass einige Methoden recht verwandt mit Theraphiemethoden sind.
+Zum Beispiel wird die "Happiness Matrix" (Man macht einen Punkt bei dem Smiley, der die eigene Stimmung am besten beschreibt) auch bei Menschen mit einer Depressiven Persönlichkeitsstörung oder Borderline genutzt: Hier muss der Patient in regelmäßigen Abständen sein Befinden auf einer Skala dokumentieren.
+Auch andere "Spiele" finden ihr Pendant bei Gruppentheraphiemethoden, etc.
+Daher verzeiht, wenn ich das so ausspreche, aber Scrum hat vor allem einen Zweck: Den Computerkellerkindern endlich mal Kommunikation beizubringen.
+---
+template: title
 <!-- -- -- -- -- -- -- KAPITEL LERNEN -- -- -- -- -- -- -->
 
 # Das Lernen lernen
@@ -610,6 +482,7 @@ Durch interne Tech-talks, Pair Programming, Pair-Reviews, etc.
 Lernen, das heißt auch auch neue Technologien reagieren und sich in fremden Code einlesen, ist DIE Kernfähigkeit jedes Entwicklers.
 Ein Entwickler, der nichts mehr dazulernt wird innerhalb eines Jahres den Anschluss verpassen.
 ---
+template: list
 
 # Lernen im Beruf !== Lernen in der Schule
 --
@@ -619,7 +492,7 @@ Ein Entwickler, der nichts mehr dazulernt wird innerhalb eines Jahres den Anschl
 Ihr müsst euch den Scheiß selbst beibringen
 --
 
-- Direkt umgesetzt
+- Direkte Umsetzung
 ???
 Im Vergleich zum Schullernen, wo man das Wissen nach der Klassenarbeit wegwerfen kann.
 --
@@ -628,6 +501,7 @@ Empfohlen wird das Spirallernen:
 Ein Lernpaket lernen. Das dann wiederholen, und ein neues Lernpaket gelernt, wieder alles wiederholen, etwas neues dazu und so weiter und so fort.
 Praktischerweise ist genau das auch das Schema beim Lernen einer neuen Sprache.
 ---
+template: title
 
 # Ein Beispiel
 
@@ -644,6 +518,7 @@ Wie man sich die Reihenfolge der Farben von Widerständen merkt
 8 80jähriger mit grauen Haaren
 9 neun weiße kegel
 ---
+template: title
 
 # Das gelernte Anwenden
 ???
@@ -652,6 +527,8 @@ Es spielt keine Rolle, ob das Projekt auch mal real wird, gelernt ist gelernt.
 
 Das beste Ergebnis erziehlt man jedoch, indem man seinen Erfolg mit jemandem teilt und sich Feedback einholt.
 Man braucht übrigens keine Angst zu haben. Derjenige, den man fragt will sich entweder profilieren oder wirklich helfen. In beiden Fällen bekommt man die gewünschte Kritik und beide Seiten gewinnen.
+---
+template: title
 
 # Lernen durch Lehren
 ???
@@ -659,19 +536,24 @@ Jemanden etwas beizubringen lässt einen den Stoff durch andere Augen sehen.
 Ein Minimaler Vorsprung reicht oft aus. Ungelöste Fragen lassen sich gemeinsam erarbeiten.
 Durch die Fremde Sicht auf das Thema lernt man weitere Aspekte und Betrachtungsweisen kennen.
 ---
+template: title
 
 # Ausprobieren > Informieren
 ???
 Den größte Erfolg hat man mit eigenen Erfahrungen.
 Dank virtualisierungen muss man auch keine Angst mehr haben etwas kaputt zu machen
 
-# Um zu lernen muss man Fehler machen
+# Um zu llrnen muss man Fehler machen
+--
+
+## Lernt, zu versagen!
 ???
 Beispiel Schach: Man kann nur besser werden, indem man gegen stärkere Gegner spielt.
 Fehler machen will aber auch gelernt sein, bzw. der Umgang mit Fehlern.
 Softwarefehler beheben wir, indem wir einen Test schreiben und den Fehler dann beheben.
 Test => Fehler erkennen und verstehen und die Sicherheit, dass der Fehler nicht mehr auftritt.
 ---
+template: list
 
 # Und wenn man doch mal hängen bleibt?
 --
@@ -697,6 +579,7 @@ Anekdote:
 ein Problem mit HTTP Basic auth. Der Entwickler arbeitet mit Postman, und die Authentifizierung klappt einfach nicht. Im einem der Tests jedoch läuft alles.
 Nach und nach wurden Teile entfernt, bis letzten endes die Requests mit Curl weggeschickt wurden. Und siehe da, es funktionierte, weil Postman einen Bug in der base64 encodierung hat, wenn im String Umlaute sind.
 ---
+template: title
 
 <!-- -- -- -- -- -- -- KAPITEL ACHTE AUF DICH SELBST -- -- -- -- -- -- -->
 
@@ -706,6 +589,7 @@ Publikum fragen, was das ist.
 Es wird das "Was war zuerst da"-Problem erklärt.
 Stattdessen meine ich aber das "Glückliche Hühner legen die besseren Eier"-Phänomen. ;)
 ---
+template: list
 
 # Der ergonomische Arbeitsplatz
 ???
@@ -713,10 +597,14 @@ Sehnenscheidentzündungen sind eine Berufskrankheit für Softwarentwickler.
 --
 
 - Mäuse sind für die Katz
-- Tastaturen sollen flach sein
 ???
 Mäuse sind fast ein garant für eine Sehnenscheidentzündung.
 Trackballs oder ergonomische Mäuse kosten nicht die Welt.
+--
+
+- Tastaturen haben flach zu sein
+???
+Klappt die Beinchen ein, eure Handgelenke werden euch danken
 Wenn Ihr euch die Hardware aussuchen könnt, achtet auf ergonomische Geräte
 --
 
@@ -725,16 +613,16 @@ Wenn Ihr euch die Hardware aussuchen könnt, achtet auf ergonomische Geräte
 Ihr sitzt am Tag bis zu 8 Stunden in dem Ding (Plus die Zeit zuhause)
 Gönnt euch da ruhig mal was
 ---
+class: center, top
+background-image: url(images/yoga-at-work-emotion-de.png)
 
 # Übungen zur Auflockerung
-
-![Kleines Büro-Yoga](images/yoga-at-work-emotion-de.png)
 
 ???
 Und jetzt mal was zum mitmachen :)
 (Wer jetzt nicht mitmacht, dem wird es später umso schwerer fallen überhaupt damit anzufangen)
 ---
-
+template: title
 
 
 # Die geistige Gesundheit
@@ -742,7 +630,8 @@ Und jetzt mal was zum mitmachen :)
 Jetzt wird es mal etwas ernster
 Ich werde ein paar psychische Erkrankungen vorstellen, von denen ich denke, das Entwickler da besonders anfällig für sind.
 Dennoch soll das auch unter dem Motto "Naming things" laufen, um ein Vokabular zu schaffen, mit dem man über solche Dinge reden kann.
---
+---
+template: list
 
 ## Mentale Erkrankungen 
 --
@@ -784,15 +673,19 @@ Aspberger: Das unvermögen menschliche Emotionen anderer zu interpretieren
 Borderline: Selbstzerstörendes Verhalten (klassiker: Selbstverletzung, aber auch andere Steine, die man sich selbst in den Weg legt.)
 
 ---
+template: list
 
 # Hilfestellen
 
-- Ärzte
+- Ärzte (Ernsthaft, geht zum Arzt!)
 - TelefonSeelsorge in Deutschland +49 (0)800 111 0 111 (gebührenfrei)
 - http://www.depressionen-depression.net/notfaelle/notfallnummern.htm
 ---
+template: list
 
 # Prävention
+???
+Kommen wir zu dem Moment, an dem Ihr alle im Anschluss mit "Ja Papa" antwortet.
 --
 
 - Habt Spaß an dem, was Ihr tut.
@@ -805,7 +698,6 @@ sicher, das geht nicht immer, Durststrecken sind völlig normal. Aber verliert n
 Hobbies sind wichtig. Sehr gut sind Hobbies, die nicht das selbe wie der Beruf sind.
 Das kann das herumspielen mit einer anderen Programmiersprache sein.
 Ebenfalls sehr gut sind Hobbies, bei denen die Hände beschäftigt sind.
-Und nun werde ich einen Satz sagen, den man gar nicht sagen darf, weil er eine Geschichte hat, mit der niemand in Verbindung gebracht werden möchte. Eine Weisheit, die von den Nazis missbraucht wurde, aber nicht in Vergessenheit geraten sollte: Arbeit macht Frei.
 Polymorphie ist auch hier der Schlüssel, wer mehrere Hobbies zur Auswahl hat, kann immer nach Bedarf wählen.
 --
 
@@ -820,18 +712,24 @@ Eine Alkoholsucht kann zum tod führen, und Kiffen schränkt die Gehirnleistung 
 ???
 Sowohl im Arbeitsteam als auch außerhalb des Arbeitsteam.
 Vollkommen isoliert fehlt euch das wichtige Feedback von außen
-Es gibt nichts schlimmeres was Code passieren kann, als dass ihn nur ein Entwickler schreibt.
+Es gibt nichts schlimmeres was Code passieren kann, als dass ihn nur ein Entwickler schreibt. Und für einen Menschen ist es noch schlimmer nur mit sich selbst zu sein.
 --
 
-- Bleibt gesund
+- Geh mal raus
+???
+Frischluft tut gut und ein Spaziergang ist eine gute Grundlage um nachzudenken, da sich die Umgebung ständig verändert und neue Reize liefert.
+--
+
+- Achte auf Deine Gesundheit
 ???
 In einem gesundem Körper lebt auch ein gesunder Geist. eine Bauernweisheit, aber es durchaus etwas dran. Wer ständig damit beschäftigt ist, sein Wunschgewicht zu halten, kann diese Energie nicht für andere Dinge nutzen.
 ---
+template: list
 
 # Karriere machen
 --
 
-- Alle zwei is drei Jahre die Firma wechseln
+- Alle zwei bis drei Jahre die Firma wechseln
 ???
 Schnellster Weg für eine Gehaltserhöhung.
 Einfachster Weg neue Projekte kennen zu lernen
@@ -841,13 +739,15 @@ Einfachster Weg neue Projekte kennen zu lernen
 ???
 Besucht Konferenzen, haltet Talks, macht mit bei Open Source Projekten, bringt Leuten etwas bei, etc, etc, etc.
 ---
+template: title
 
 <!-- -- -- -- -- -- -- KONFLIKTE -- -- -- -- -- -- -->
 
 # ... und es hat Boom gemacht.
 ---
+template: list
 
-# Verhalten in Konfliktsituationen
+# Allgemeines Verhalten in Konfliktsituationen
 --
 
 Grundsätzlich: Das Ziel ist nicht, den anderen zu überzeugen.
@@ -859,7 +759,7 @@ Das Ziel ist es, den anderen Standpunkt zu verstehen und seinen Eigenen verstän
 Dürfte Selbstverständlich sein. Aber schwierig.
 --
 
-- Nicht einmischen
+- Eingreifen, aber nicht mitmachen
 ???
 Das feuert den Konflikt nur noch weiter an
 --
@@ -875,11 +775,12 @@ Dev: "Ja, weil sich nichts ändert"
 PO verliert die Beherschung "Du wirst dafür bezahlt, dass Du hier programmierst"
 Dev (macht alles richtig) bleibt ruhig, sagt gar nichts mehr.
 ---
+template: list
 
 # Sachlicher Konflikt
 --
 
-"Symfony vs Laravel"
+"Windows vs Linux"
 --
 
 - Sachlichkeit > eigene Vorlieben
@@ -890,6 +791,7 @@ Dev (macht alles richtig) bleibt ruhig, sagt gar nichts mehr.
 
 - Etwas nicht zu kennen ist kein Argument dagegen!
 ---
+template: list
 
 # Sozialer Konflikt
 --
@@ -912,29 +814,36 @@ Der neue, fähige, Mitarbeiter stößt ins Team. Er kann was, weiß das, und mus
 Die anderen Kollegen sehen nur einen arroganten Menschen, der sich da ins Team drängt und auf Wichtig macht.
 Wo ist das Problem? => Im Team (bzw. bei Dir)! 
 ---
+template: title
 
 # Und wenn gar nichts mehr hilft?
 --
 
-- Kündigt.
+Kündigt!
 ???
 Macht euch klar: Entwickler sind aktuell Mangelware. Ihr werdet einen neuen Job finden!
 Wer aber zu oft wechselt, wird irgendwann Fragen beantworten müssen.
 ---
+template: list
 
 # Weiterführendes
 
 - [Anti Pattern auf Wikipedia](https://de.wikipedia.org/wiki/Anti-Pattern)
 - [Antipatterns und Missverständnisse in der Softwareentwicklung](https://www.youtube.com/watch?v=E0_Y53ci9cw) von Fefe
 - [Erfolgreich Dein Leben meistern](https://www.youtube.com/watch?v=j3cRo2wOBms) von Vera F. Birkenbihl
+- [Open Sourcing Mental Illness - Changing how we talk about mental health in the tech community - Stronger Than Fear](osmihelp.org)
 - Stackexchange hat Bereiche für alle(!) möglichen(!) Arten von Fragen!
 ---
+template: list
 
 # Abschließendes
 
 - Reflektiert regelmäßig
 - Passt auf euch auf
 - Habt euch lieb
+???
+Habt euch selbst lieb und andere
 ---
+template: title
 
 # Ende
